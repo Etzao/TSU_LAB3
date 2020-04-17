@@ -19,7 +19,7 @@ public class SpaceBody : MonoBehaviour, IHeavenBody
             days1 = 224.7f;
             days2 = 243;
             RotateAroundSelf = 360/days2;
-            RotateAroundSun = 360/days1;
+            RotateAroundSun = 365/days1;
             transform.Rotate(0, RotateAroundSun, 0);
             transform.RotateAround(sun.transform.position, Vector3.up, RotateAroundSun);
         }
