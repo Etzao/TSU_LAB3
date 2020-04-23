@@ -6,7 +6,7 @@ public enum BodyType { Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus
 
 public class SolarSystem : MonoBehaviour
 {
-    public const float DayInSec = 0.2f;//Время в секундах означающее 1 земные сутки
+    public const float DayInSec = 0.02f;//Время в секундах означающее 1 земные сутки
     private static float timer = 0;//Обнуляемый таймер
 
     private static List<IHeavenBody> heavenBodies = new List<IHeavenBody>();//Список зарегистрированных планет
@@ -25,7 +25,6 @@ public class SolarSystem : MonoBehaviour
         }
         heavenBodies.Add(body);
     }
-
 
     /// <summary>
     /// Метод вызываемый каждый кадр
