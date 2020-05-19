@@ -46,8 +46,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\IHeavenBody.cs" />
+     <Compile Include="Assets\Scripts\SatelliteBody.cs" />
      <Compile Include="Assets\Scripts\SolarSystem.cs" />
-     <Compile Include="Assets\Scripts\SpaceBody.cs" />
+     <Compile Include="Assets\Scripts\VenusBody.cs" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/2019.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
