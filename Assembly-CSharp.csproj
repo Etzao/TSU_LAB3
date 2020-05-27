@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\IHeavenBody.cs" />
      <Compile Include="Assets\Scripts\MercuryBody.cs" />
      <Compile Include="Assets\Scripts\SolarSystem.cs" />
+     <Compile Include="Assets\Scripts\Sputnik.cs" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/2019.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
